@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93957a2cb480cd14cbb182b61b96fa2f, type: 3}
+  m_Name: Space
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 70df35dc4fa54d04790b0a2fd5107a8f, type: 3}
+  csv: {fileID: 4900000, guid: 5ac576dbd596e3f42a9d82d3584d20fc, type: 3}
+  top: 1
+  bottom: 1
+  left: 1
+  right: 1

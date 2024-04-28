@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Grid
+  - EnemyController
+  - Outline
+  - Generation Square
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Tiles
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2183704415
+    locked: 0
+  - name: Objects
+    uniqueID: 1580098557
+    locked: 0
+  - name: Grid
+    uniqueID: 1624963423
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FogOfWar
+    uniqueID: 665470579
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3500203389
+    locked: 0
