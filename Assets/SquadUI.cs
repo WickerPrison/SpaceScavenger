@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SquadUI : MonoBehaviour
 {
@@ -26,6 +27,14 @@ public class SquadUI : MonoBehaviour
                 teamPrepUnitUI[i].unitSO = null;
             }
             teamPrepUnitUI[i].UpdateUI();
+        }
+    }
+
+    public void BeginMission()
+    {
+        if(playerData.squad.Count > 0)
+        {
+            SceneManager.LoadScene("ShipGeneration");
         }
     }
 

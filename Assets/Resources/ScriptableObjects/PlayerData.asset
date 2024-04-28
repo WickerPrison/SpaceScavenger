@@ -16,5 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 35dad68bfbca2224990df3d60505d634, type: 2}
   - {fileID: 11400000, guid: 42f6de4142000e442a4f4df0baad7eac, type: 2}
   - {fileID: 11400000, guid: 6dcd4062d1ac13e4fbbf70d46d9b497f, type: 2}
-  squad: []
+  squad:
+  - {fileID: 11400000, guid: 35dad68bfbca2224990df3d60505d634, type: 2}
+  - {fileID: 11400000, guid: 42f6de4142000e442a4f4df0baad7eac, type: 2}
   unitNum: 2

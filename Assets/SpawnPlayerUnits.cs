@@ -11,20 +11,18 @@ public class SpawnPlayerUnits : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < playerData.unitNum; i++)
+        for(int i = 0; i < playerData.squad.Count; i++)
         {
-            /*
             GameObject unitObject = Instantiate(playerUnitPrefab);
             unitObject.transform.position = spawnPoints[i].position;
             UnitStats stats = unitObject.GetComponent<UnitStats>();
-            stats.maxHealth = playerData.maxHealth[i];
+            stats.maxHealth = playerData.squad[i].maxHealth;
             stats.health = stats.maxHealth;
-            stats.maxAP = playerData.maxAP[i];
+            stats.maxAP = playerData.squad[i].maxAP;
             stats.currentAP = stats.maxAP;
-            stats.carryCapacity = playerData.carryCapacity[i];
+            stats.carryCapacity = playerData.squad[i].carryCapacity;
             PlayerUnit playerUnit = unitObject.GetComponent<PlayerUnit>();
-            playerUnit.unitName = playerData.names[i];
-            */
+            playerUnit.unitName = playerData.squad[i].unitName;
         }
     }
 }
